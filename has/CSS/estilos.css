@@ -1,0 +1,549 @@
+* {
+	margin:0;
+	padding: 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-box-sizing: border-box;
+}
+
+body {
+	font-family: 'IM Fell English SC', serif;
+	font-size: 16px;
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 1000px;
+	margin:auto;
+	overflow: hidden;
+}
+
+/*-----------HEADER------------*/
+
+header {
+	width: 100%;
+	background: url('../IMG/acerca-de.jpg') #281a0c;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center 0;
+}
+
+header .contenedor {
+	position:relative;
+	height: 700px;
+}
+
+header .menu {
+	width: 100%;
+	text-align: right;
+}
+
+header .menu a {
+	color: #fff;
+	font-size: 25px;
+	font-weight: 300;
+	display: inline-block;
+	margin: 40px 20px;
+	text-decoration: none;
+	position: relative;
+}
+
+header .menu a:hover {
+	text-decoration: underline;
+}
+
+header .textos {
+	width: 100%;
+	color: #fff;
+	position: absolute;
+	top:38%;
+	margin-top:-50px;
+}
+
+header .textos .nombre span {
+	font-size: 75px;
+	font-weight: 600;
+}
+
+header .textos .nombre {
+	font-weight: 300
+}
+
+header .textos h3 {
+	font-weight: 300;
+	font-size: 40px;
+	font-style: italic;
+}
+
+
+/*---------------------MAIN---------------------*/
+
+.main {
+	background: url('../IMG/dimension.png');
+	background-repeat:repeat;
+}
+
+.main .acerca-de .contenedor {
+	overflow: visible;
+	position: relative;
+}
+
+.main .acerca-de .foto {
+	width: 70%;
+	position: absolute;
+	left:0;
+	top: -50px;
+	z-index:0;
+	box-shadow: 0px 0px 15px rgba(0,0,0,.35);
+}
+
+.main .acerca-de .foto img {
+	vertical-align: top;
+	width: 100%;
+}
+
+.main .acerca-de article {
+	background:#fff;
+	padding: 40px;
+	width: 50%;
+	position: relative;
+	top:500px;
+	z-index: 1;
+	float: right;
+	box-shadow: 0px 0px 15px rgba(0,0,0,.35);
+}
+
+.main .acerca-de article h3 {
+	font-size: 50px;
+	font-weight: 300;
+	margin-bottom: 40px;
+}
+
+.main .acerca-de article p {
+	line-height: 28px;
+	margin-bottom: 40px;
+	font-size: 20px;
+}
+
+.main .cursos {
+	padding-top: 600px;
+	margin-bottom: 50px;
+}
+
+
+.main .cursos .titulo {
+	font-size: 60px;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+
+.main .cursos .contact-info.animated {
+    opacity: 1;
+    transition: 1s ease;
+    transition-delay: 0.2s;
+    width: 1300px;
+    width: 10px 10px;
+    margin-top: 50px;
+    margin-left: 10px;
+   
+}
+.main .cursos .contact-container {
+    display: inline-block; 
+    width: 350px;
+    text-align: center;
+    margin: 40px;
+}
+
+.main .cursos .contact-icon {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.main .cursos .contact-desc {
+    padding-top: 50px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.main .cursos .contact-desc p {
+    font-size: 20px;
+    margin-top: 2px;
+
+}
+
+
+
+.main .cursos .contact-underline {
+    height: 5px;
+    width: 100px;
+    background: #981b1f;
+    margin: 0 auto;
+}
+
+
+.main .menu {
+	padding-top: 200px;
+	margin-bottom: 50px;
+}
+
+.main .menu .titulo {
+	font-size: 50px;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+
+.main .menu .contact-underline {
+    height: 5px;
+    width: 100px;
+    background: #981b1f;
+    margin: 0 auto;
+}
+
+.main .menu article {
+	width: 100%;
+	float: left;
+	padding: 20px;
+}
+
+.main .menu .categoria {
+	font-size: 22px;
+	font-weight: 700;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.main .menu .platillo {
+	margin-bottom: 30px;
+	padding: 20px;
+	border-bottom: 4px dotted #000;
+	overflow: hidden;
+}
+
+.main .menu .nombre {
+	font-size: 20px;
+	margin-bottom: 15px;
+	float: left;
+}
+
+.main .menu .precio {
+	font-size: 20px;
+	margin-bottom: 15px;
+	float: right;
+}
+
+.main .menu .descripcion {
+	font-size: 16px;
+	color: #676767;
+	clear: both;
+}
+
+.main .galeria {
+	overflow: hidden;
+
+}
+
+.main .galeria .foto {
+	width: 25%;
+	float: left;
+	background: #fff;
+}
+
+.main .galeria .foto img {
+	width: 100%;
+	vertical-align: top;
+	opacity: .9;
+}
+
+.main .galeria .foto img:hover {
+	opacity: 1;
+	-o-transition:all .3s ease;
+	-webkit-transition: all .3s ease;
+	-transition: all .3s ease;  
+
+}
+
+.main .ubicacion {
+	background: #fff;
+	padding: 60px 0;
+	overflow: hidden;
+	width: 100%;
+	background: url('../IMG/dimension.png');
+
+
+}
+
+.main .ubicacion .contact-text {
+    margin: 0 auto;
+    padding-top: 200px;
+    color: black;
+    width: 100%;
+    opacity: 0;
+}
+
+.main .ubicacion .contact-text.animated {
+    opacity: 1;
+    transition: 1s ease;
+}
+
+.main .ubicacion .contact-text h1 {
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.main .ubicacion .contact-text p {
+    font-size: 20px;
+    padding: 20px;
+    width: 430px;
+    margin: 0 auto;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+
+
+.main .ubicacion .contact-underline {
+    height: 5px;
+    width: 100px;
+    background: #981b1f;
+    margin: 0 auto;
+}
+.main .ubicacion .contact-info {
+ display: flex;
+ width: 1100px;
+ margin: 0 auto;
+ padding-top: 100px;
+ opacity: 0;
+}
+.main .ubicacion .contact-info.animated {
+    opacity: 1;
+    transition: 1s ease;
+    transition-delay: 0.2s;
+    width: 10px 10px;
+    margin-right: 600px;
+}
+.main .ubicacion .contact-container {
+    display: inline-block; 
+    width: 380px;
+    text-align: center;
+     margin: 30px;
+
+}
+
+.main .ubicacion .contact-icon {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.main .ubicacion .contact-desc {
+    padding-top: 50px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.main .ubicacion .contact-desc h2 {
+	font-size: 30px;
+}
+
+.main .ubicacion .contact-desc p {
+	font-size: 25px;
+}
+
+
+input{
+  font-size: 23px;
+  text-align: left;
+  font-family: 'IM Fell English SC', serif;
+  border:0px;
+  margin-top: 0px;
+
+}
+
+i.fa{
+  font-size: 10px;
+  cursor:pointer;
+}
+i.fa:hover{
+  transform:scale(1.1);
+}
+.mensaje{
+  font-size: 10px;
+}
+
+
+
+@keyframes fadeOu {
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-ou {
+  opacity: 1;
+  animation: fadeOu 1s ease-in 1 forwards;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s ease-in 1 forwards;
+}
+
+.wrapper .mapa {
+	width: 100%;
+	overflow: hidden;
+}
+
+.wrapper .mapa iframe {
+	width: 100%;
+	max-height: 600px;
+}
+
+/*------FOOTER----------*/
+
+footer .redes-sociales {
+	color:#1e2b38;
+
+}
+
+footer .redes-sociales .contenedor {
+	display: flex;
+	justify-content: center;
+	background: #000;
+	text-align: center;
+	padding:2px 2px;
+	color: #fff;
+}
+
+footer .redes-sociales a {
+	color: #fff;
+	text-align: center;
+	width: 100px;
+	display: block;
+	padding: 5px 20px;
+	border-radius: 3px;
+	font-size: 20px;
+	margin: 0 100px;
+}
+
+footer .redes-sociales a .fa {
+	font-size: 30px;
+}
+
+
+
+footer .redes-sociales .facebook:hover {
+	background: #3b5998;
+}
+
+footer .redes-sociales .youtube:hover {
+	background: #ff0000;
+}
+
+
+footer .redes-sociales .instagram:hover {
+	background: #833ab4;
+}
+
+/*-------MEDIAQUERIES-------*/
+
+@media screen and (max-width: 800px) {
+	header .contenedor {
+		position: static;
+		height: auto;
+	}
+
+	header .textos {
+		position: static;
+		margin: 100px 0;
+	}
+
+	header .menu {
+		text-align: center;
+	}
+
+	header .menu a {
+		margin: 10px 20px;
+	}
+
+	header .textos .nombre {
+		font-size: 30px;
+	}
+
+	header .textos h3 {
+		font-size: 18px;
+	}
+
+	.main .acerca-de .foto {
+		width: 100%;
+		position: relative;
+	}
+
+	.main .acerca-de article {
+		position: relative;
+		width: 100%;
+		top:-50px;
+		transform: translate(0px, 0);
+
+	}
+
+	.main .menu {
+		padding-top:300px ;
+	}
+
+	.main .menu article {
+		width: 100%;
+	}
+
+	.main .galeria .foto {
+		width: 50%;
+	}
+
+	.main .mapa {
+		width: 80%;
+		margin: auto;
+	}
+}
+
+@media screen and (max-width: 450px) {
+
+	.main .acerca-de article h3 {
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+	
+	.main .cursos .contact-info.animated  {
+		width: 50%;
+		position: relative;
+	}
+	.main .menu article .nombre,
+	.main .menu article .precio {
+		font-size: 16px;
+		line-height: 16px;
+	}
+
+	.main .ubicacion .direccion {
+		margin-bottom: 10px;
+	}
+
+	.main .ubicacion .direccion {
+		width: 100%;
+		text-align: center;
+	}
+
+}
+
+
+
+
+
